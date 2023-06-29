@@ -72,9 +72,9 @@ const Banner = () => {
             whileInView={'show'}
             viewport={{once: false, amount: 0.6}}
              className="flex text-xl gap-x-6 max-w-max mx-auto  lg:mx-0 mb-10">
-              <a href=""><FaGithub className="text-2xl"></FaGithub></a>
-              <a href=""><FaLinkedin className="text-2xl"></FaLinkedin></a>
-              <a href=""><FaFacebook className="text-2xl"></FaFacebook></a>
+              <a href="https://github.com/mdalamin0" target="_blank"><FaGithub className="text-2xl"></FaGithub></a>
+              <a href="https://www.linkedin.com/in/md-al-amin-60aa32219/" target="_blank"><FaLinkedin className="text-2xl"></FaLinkedin></a>
+              <a href="https://www.facebook.com/profile.php?id=100073472014269" target="_blank"><FaFacebook className="text-2xl"></FaFacebook></a>
             </motion.div>
           </div>
           <motion.div 

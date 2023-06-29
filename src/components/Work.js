@@ -23,9 +23,14 @@ const Work = () => {
           <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
             <div className='group-hover:bg-black/70 w-full h-full absolute z-50 transition-all duration-300'></div>
             <img className='group-hover:scale-125 transition-all duration-500' src={img1} alt="" />
-            <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'><span className='text-gradient'>UI/UX design</span></div>
+            <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'><span className='text-gradient'>Shippo Football Academy</span></div>
             <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-              <span className='text-3xl'>Project title</span>
+              <div className='flex gap-x-8'>
+                <a href="https://toy-marketplace-8d776.web.app/" target='_blank'><button className='btn text-sm px-3 py-2'> Live Demo</button></a>
+                <a href="https://github.com/mdalamin0/football-academy-client" target='_blank'><button className='btn text-sm px-3 py-2'>Front-end code</button></a>
+                <a href="https://github.com/mdalamin0/football-academy-server" target='_blank'><button className='btn text-sm px-3 py-2'>Backend code</button></a>
+                
+              </div>
             </div>
           </div>
         </motion.div>
