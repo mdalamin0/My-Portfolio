@@ -22,9 +22,7 @@ const Work = () => {
                 My Latest <br /> Work.
               </h2>
               <p className="max-w-sm mb-16">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
-                voluptatibus consectetur at similique numquam quisquam enim
-                temporibus voluptates, doloremque .
+              I have successfully completed various notable projects that showcase my expertise in React JS Development. For instance, I developed “Shippo-Football-Academy” this is a full-stack website where I utilized React JS, Tailwind CSS, Flowbite, Firebase, Mongodb, Node.js, Express.js. And I have been working with React last 3 months.
               </p>
               <button className="btn btn-sm">View all projects</button>
             </div>
@@ -113,7 +111,7 @@ const Work = () => {
                 </div>
               </div>
             </div>
-            <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
+            <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl mt-24">
               <div className="group-hover:bg-black/70 w-full h-full absolute z-50 transition-all duration-300"></div>
               <img
                 className="group-hover:scale-125 transition-all duration-500 h-[310px]"
@@ -121,7 +119,7 @@ const Work = () => {
                 alt=""
               />
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">UI/UX design</span>
+                <span>Chef-recipe</span>
               </div>
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
               <div className="flex gap-x-8">
